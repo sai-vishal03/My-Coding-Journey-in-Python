@@ -1,0 +1,15 @@
+Phase 1: Python Fundamentals:
+
+tep 1: Python Setup
+Install Python:
+
+Download and install the latest version of Python from python.org.
+Check if Python is installed by opening the terminal or command prompt and typing:
+bash
+Copy code
+"python --version"
+
+Choose a Code Editor:
+
+VS Code: Lightweight and highly customizable (Download VS Code).
+PyCharm: More focused on Python development (Download PyCharm).
