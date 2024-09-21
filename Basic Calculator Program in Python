@@ -1,0 +1,37 @@
+Program:
+
+n1=int(input())
+n2=int(input())
+add=n1+n2
+sub=n1-n2
+mul=n1*n2
+div=n1/n2
+print("Addition: ", add)
+print("Subtraction: ", sub)
+print("Multiplication: ", mul)
+if(n2==0):
+  print("division by zero is not allowed")
+else:
+  print("Division: ", div)
+
+Task: Basic Calculator Program
+Logic:
+Take two numbers from the user as input.
+Perform the following operations:
+Addition
+Subtraction
+Multiplication
+Division
+For each operation, display the result.
+Handle edge cases like division by zero.
+Expected Input:
+Number 1: 10
+Number 2: 2
+Expected Output:
+makefile
+Copy code
+Addition: 12
+Subtraction: 8
+Multiplication: 20
+Division: 5.0
+If the second number is 0, you should display a message indicating that division by zero is not allowed.
