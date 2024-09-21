@@ -1,0 +1,59 @@
+Conditional Statements
+If Statement: Executes a block of code if a condition is true.
+
+Example: Checking if someone can vote based on age.
+
+python
+Copy code
+age = 20
+if age >= 18:
+    print("You can vote.")
+Real-World Example: Verifying user eligibility in a registration system.
+
+If-Else Statement: Provides an alternative action if the condition is false.
+
+Example: Checking if a user is an adult.
+
+python
+Copy code
+age = 15
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are not an adult.")
+Real-World Example: Access control based on age, like in online platforms.
+
+If-Elif-Else Statement: Checks multiple conditions.
+
+Example: Assigning grades based on a score.
+
+python
+Copy code
+score = 85
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+else:
+    print("Grade: C")
+Real-World Example: Grading student performance in educational systems.
+
+Nested If Statement: An if statement inside another if statement for multiple layers of conditions.
+
+Example: Determining if a number is positive and even.
+
+python
+Copy code
+number = 4
+if number > 0:
+    print("Positive number")
+    if number % 2 == 0:
+        print("It's even.")
+Real-World Example: Checking user input for complex validation scenarios.
+
+Summary
+In this section, we learned about conditional statements in Python. We covered the if statement 
+to execute code based on a condition, the else statement for alternative actions when the condition 
+is false, and elif for multiple conditions. Additionally, we looked at nested if statements for 
+checking multiple layers of conditions. These constructs allow you to control the flow of your 
+program based on varying conditions.
