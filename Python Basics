@@ -1,0 +1,62 @@
+Step 3: Python Basics
+In Python, variables can hold different types of data, and their type is determined automatically by the value assigned.
+
+python
+Copy code
+# Variables
+name = "Sai Vishal"  # String: A sequence of characters
+age = 22             # Integer: A whole number
+height = 5.9         # Float: A number that can have decimals
+is_student = True    # Boolean: A value that can be either True or False
+
+# Print the values and types
+print(name, type(name))         # Outputs the value of 'name' and its type (str)
+print(age, type(age))           # Outputs the value of 'age' and its type (int)
+print(height, type(height))     # Outputs the value of 'height' and its type (float)
+print(is_student, type(is_student))  # Outputs the value of 'is_student' and its type (bool)
+Step 2: Basic Operations
+Python supports various arithmetic operations that can be performed on numbers.
+
+python
+Copy code
+# Arithmetic operations
+a = 10  # Assigning the value 10 to variable 'a'
+b = 3   # Assigning the value 3 to variable 'b'
+
+# Addition
+print(a + b)   # Outputs 13, which is the result of adding 10 and 3
+
+# Subtraction
+print(a - b)   # Outputs 7, which is the result of subtracting 3 from 10
+
+# Multiplication
+print(a * b)   # Outputs 30, which is the result of multiplying 10 and 3
+
+# Division
+print(a / b)   # Outputs 3.33333, which is the result of dividing 10 by 3
+
+# Integer Division
+print(a // b)  # Outputs 3, which is the result of integer division (floor division), discarding the fractional part
+
+# Modulus (remainder)
+print(a % b)   # Outputs 1, which is the remainder when 10 is divided by 3
+
+# Exponentiation
+print(a ** b)  # Outputs 1000, which is 10 raised to the power of 3 (10 * 10 * 10)
+Step 3: Input from the User
+You can take user input using the input() function. It captures everything as a string, so you often need to convert it to the appropriate type.
+
+python
+Copy code
+# Taking input from the user
+name = input("Enter your name: ")           # Captures user input for 'name'
+age = int(input("Enter your age: "))         # Converts the user input to an integer for 'age'
+height = float(input("Enter your height: ")) # Converts the user input to a float for 'height'
+
+# Outputting a formatted string using f-string
+print(f"Hello, {name}. You are {age} years old and {height} feet tall.")
+Summary
+Variables in Python don't need explicit type declarations; they are inferred from the assigned values.
+Basic arithmetic operations include addition, subtraction, multiplication, division, integer division, modulus, and exponentiation.
+User input is handled using the input() function, and type conversion is done to ensure the input values are used correctly in calculations or logic.
+This structure makes Python both powerful and easy to use for beginners.
