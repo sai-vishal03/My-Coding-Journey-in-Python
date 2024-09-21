@@ -1,0 +1,14 @@
+Step 2: Writing Your First Python Program
+
+Hello World: Open your code editor (VS Code or PyCharm), create a new file, and name it hello.py. In this file, type the following:
+python
+Copy code
+print("Hello, World!")
+Run the Program:
+If you're using VS Code, you can run the program by opening the terminal in VS Code (View -> Terminal) and typing:
+bash
+Copy code
+"python hello.py"
+
+In PyCharm, simply right-click on the file and select "Run" or use the play button at the top right corner.
+You should see the output: Hello, World!
