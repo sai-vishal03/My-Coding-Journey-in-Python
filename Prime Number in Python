@@ -1,0 +1,78 @@
+My code:
+#find prime or not.
+n=int(input())
+if n<2:
+    print(f"{n} is not a prime number")
+else:
+    for i in range(2,n):
+        if n%i==0:
+            print(f"{n} is not a prime number")
+            break
+    else:
+        print(f"{n} is a prime number")
+
+#find prime numbers in a given range.
+# Get the range from the user
+start = int(input("Enter the start of the range: "))
+end = int(input("Enter the end of the range: "))
+
+# Ensure the start is at least 2, as numbers less than 2 are not prime
+if start < 2:
+    start = 2
+
+# Iterate through each number in the range
+for n in range(start, end + 1):
+    if n < 2:
+        continue  # Skip numbers less than 2 (though we already ensured start >= 2)
+    
+    # Check if n is a prime number
+    for i in range(2, n):
+        if n % i == 0:
+            break  # n is not a prime number if it is divisible by i
+    else:
+        # If no divisors were found, n is a prime number
+        print(n, end=" ")
+
+####################################################################
+Optimized Code:
+import math
+n = int(input("Enter a number: "))
+if n < 2:
+    print(f"{n} is not a prime number")
+else:
+    is_prime = True
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            is_prime = False
+            break    
+    if is_prime:
+        print(f"{n} is a prime number")
+    else:
+        print(f"{n} is not a prime number")
+Explanation:
+Square Root Optimization: Checking divisibility only up to the square root of n (int(math.sqrt(n)) + 1) reduces the number of iterations needed.
+Readability: The is_prime flag clearly indicates the primality of the number and improves readability.
+Mathematical Import: The math module is used to compute the square root.
+
+#################################################################
+Task: Check for Prime Number
+Logic:
+Take a number as input from the user.
+Check if the number is a prime number.
+A prime number is a positive integer greater than 1 that has no positive integer divisors other than 1 and itself.
+For checking, you need to test if the number is divisible by any integer from 2 up to the square root of the number.
+Print whether the number is prime or not.
+Expected Input:
+Number: 29
+Expected Output:
+csharp
+Copy code
+29 is a prime number
+Another Example:
+
+Number: 10
+Expected Output:
+
+csharp
+Copy code
+10 is not a prime number
