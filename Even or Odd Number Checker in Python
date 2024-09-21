@@ -1,3 +1,4 @@
+My code:
 n=int(input())
 if n==0:
   print(f"{n} is even")
@@ -12,6 +13,20 @@ elif n>0:
   else:
     print(f"{n} is odd")
 
+#############################################################################
+Optimized Code:
+n = int(input("Enter a number: "))
+if n % 2 == 0:
+    print(f"{n} is even")
+else:
+    print(f"{n} is odd")
+
+Explanation:
+Unified Condition: The modulo operation (%) will correctly identify even and odd numbers for all integers, including negative numbers.
+Simplified Input Prompt: Added a prompt for clarity.
+Efficient Code: The check for 0 is inherently covered by the % 2 operation.
+
+##############################################################################
 
 Task: Even or Odd Number Checker
 Logic:
