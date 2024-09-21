@@ -1,0 +1,38 @@
+n=int(input())
+if n==0:
+  print(f"{n} is even")
+elif n<0:
+  if n%2==0:
+    print(f"{n} is even")
+  else:
+    print(f"{n} is odd")
+elif n>0:
+  if n%2==0:
+    print(f"{n} is even")
+  else:
+    print(f"{n} is odd")
+
+
+Task: Even or Odd Number Checker
+Logic:
+Take a number as input from the user.
+Check if the number is divisible by 2.
+If divisible, print that the number is even.
+If not divisible, print that the number is odd.
+Handle cases where the number is negative or zero:
+0 is considered even.
+Negative numbers can also be even or odd.
+Expected Input:
+Number: 5
+Expected Output:
+csharp
+Copy code
+5 is odd
+Another Example:
+
+Number: 4
+Expected Output:
+
+csharp
+Copy code
+4 is even
