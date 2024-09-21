@@ -1,0 +1,53 @@
+My code:
+n=int(input())
+n1=int(input())
+n2=int(input())
+print(f"The largest number is {n}") if (n > n1 and n > n2) else print(f"The largest number is {n1}") if (n1 > n2) else print(f"The largest number is {n2}")
+
+###########################################################
+Optimized Code:
+python
+Copy code
+# Take three numbers as input
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+n3 = int(input("Enter the third number: "))
+
+# Find the largest number
+if n1 >= n2 and n1 >= n3:
+    largest = n1
+elif n2 >= n1 and n2 >= n3:
+    largest = n2
+else:
+    largest = n3
+
+print(f"The largest number is {largest}")
+Explanation:
+Improved Readability: The if-elif-else structure makes it clear which number is being compared and assigned.
+Equal Numbers: Using >= ensures that if two or more numbers are equal, the code will correctly identify one as the largest.
+This version of the code is more readable and handles the comparison more clearly.
+
+###################################################################
+Task: Find the Largest Number Among Three Numbers
+Logic:
+Take three numbers as input from the user.
+Compare the three numbers to determine which one is the largest.
+Print the largest number.
+Expected Input:
+Number 1: 10
+Number 2: 25
+Number 3: 15
+Expected Output:
+csharp
+Copy code
+The largest number is 25
+Another Example:
+
+Number 1: 3
+Number 2: 1
+Number 3: 2
+Expected Output:
+
+csharp
+Copy code
+The largest number is 3
