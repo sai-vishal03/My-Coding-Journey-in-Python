@@ -89,3 +89,25 @@ Additional Tips:
 Consistency is Key: Code every day, even if it’s for a short time.
 Track Progress: Use platforms like Leetcode or GitHub to track your solutions and improvements.
 Join Communities: Engage with coding communities (Reddit, Stack Overflow) to discuss problems and learn from others.
+
+
+**Related Links:**
+
+_GFG_: https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/
+
+_Strivers_: 
+A2Z DSA Course/Sheet: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
+Blind 75 Leetcode problems: https://takeuforward.org/interviews/blind-75-leetcode-problems-detailed-video-solutions
+SDE Sheet: https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
+79 Last Moment DSA Sheet: https://takeuforward.org/interview-sheets/strivers-79-last-moment-dsa-sheet-ace-interviews
+
+https://instabyte.io/p/fastest-way-learn-coding-ai
+https://instabyte.io/p/dsa-master
+https://instabyte.io/p/interview-master-100
+
+
+**Online Coding Profiles:**
+
+_HackerRank_: https://www.hackerrank.com/profile/sai_vishal03
+_LeetCode_: https://leetcode.com/u/sai_vishal3/
+
