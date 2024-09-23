@@ -1,0 +1,41 @@
+Print All Prime Numbers Between 1 and 100 program:
+
+# Get the range from the user
+start = int(input("Enter the start of the range: "))
+end = int(input("Enter the end of the range: "))
+
+# Ensure the start is at least 2, as numbers less than 2 are not prime
+if start < 2:
+    start = 2
+
+# Iterate through each number in the range
+for n in range(start, end + 1):
+    if n < 2:
+        continue  # Skip numbers less than 2 (though we already ensured start >= 2)
+    
+    # Check if n is a prime number
+    for i in range(2, n):
+        if n % i == 0:
+            break  # n is not a prime number if it is divisible by i
+    else:
+        # If no divisors were found, n is a prime number
+        print(n, end=" ")
+
+### **Task 6: Print All Prime Numbers Between 1 and 100**
+
+#### **Logic:**
+- A prime number is a number greater than 1 that is divisible only by 1 and itself.
+- For each number `i` from 1 to 100, check if it is prime:
+  1. For `i = 2` to `i = 100`, check if it has any divisors other than 1 and itself.
+  2. Use a loop to check divisibility by numbers from `2` to `sqrt(i)` (this reduces the number of checks).
+
+#### **Steps:**
+1. Loop through numbers from 1 to 100.
+2. For each number, check if it is prime by testing divisibility.
+3. If it is prime, print the number.
+
+#### **Expected Output:**
+```
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+```
+
