@@ -1,0 +1,45 @@
+Exercises on Loops and Conditionals:
+1. Print the First 10 Natural Numbers:
+Use a for loop to print the numbers from 1 to 10.
+2. Sum of First N Natural Numbers:
+Write a while loop that sums the numbers from 1 to n (input by the user).
+3. Print a Pattern (Triangle):
+Print the following pattern using a loop:
+markdown
+Copy code
+*
+**
+***
+****
+*****
+4. Factorial of a Number:
+Take an input number n and calculate the factorial of n using a for loop.
+(Factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120)
+5. Count the Number of Digits in a Number:
+Write a while loop that counts the number of digits in a given number.
+(For example, the number 12345 has 5 digits.)
+6. Print All Prime Numbers Between 1 and 100:
+Use nested loops and conditional statements to find all prime numbers in the range 1 to 100.
+7. Reverse a Given Number:
+Write a while loop to reverse a number input by the user.
+(For example, if the input is 1234, the output should be 4321.)
+8. Sum of Digits of a Number:
+Take an integer input and use a while loop to find the sum of its digits.
+(For example, for input 123, the sum of digits is 1 + 2 + 3 = 6.)
+9. Multiplication Table:
+Use a loop to print the multiplication table for a given number n.
+10. Check if a Number is a Palindrome:
+A palindrome is a number that reads the same backward as forward. Write a program to check if a given number is a palindrome.
+(For example, 121 is a palindrome, but 123 is not.)
+11. Fibonacci Sequence:
+Write a program to print the first n numbers of the Fibonacci sequence.
+(Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, ...)
+12. Check if a Year is a Leap Year:
+Write a program that takes a year as input and checks whether it is a leap year or not.
+(A year is a leap year if it is divisible by 4 but not by 100, except when it's divisible by 400.)
+13. Find the Largest and Smallest Numbers in a List:
+Write a program that takes a list of numbers as input and finds the largest and smallest numbers in the list using loops.
+14. Print All Odd Numbers in a Given Range:
+Write a for loop that prints all odd numbers between two numbers a and b (input by the user).
+15. Guessing Game:
+Write a simple guessing game where the program randomly selects a number between 1 and 100, and the user has to guess the number. The program should give hints such as "too high" or "too low" based on the guesses.
