@@ -1,0 +1,28 @@
+Factorial Number program:
+
+n=int(input())
+f=1
+for i in range(1,n+1):
+        f=f*i
+print(f)
+
+
+Suggestions for Improvement:
+You can add a check to handle the case where n = 0, since the factorial of 0 is defined as 1.
+Variable names like f can be more descriptive for better readability, e.g., factorial.
+Optimized Version:
+python
+Copy code
+n = int(input("Enter a number: "))
+
+# Factorial of 0 is 1
+factorial = 1
+
+for i in range(1, n + 1):
+    factorial *= i
+
+print(f"Factorial of {n} is {factorial}")
+Explanation of Changes:
+Added a prompt message when asking for input.
+Used factorial as the variable name to make the code more readable.
+If you want to handle negative numbers or other invalid inputs, you can add input validation.
